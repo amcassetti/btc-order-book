@@ -1,0 +1,27 @@
+{
+  "name": "TechanJS",
+  "main": "dist/techan.js",
+  "ignore": [
+    "Gruntfile.js",
+    "lib",
+    "package.json",
+    "src",
+    "test",
+    "/.*"
+  ],
+  "dependencies": {
+    "d3": "~3.5.1"
+  },
+  "homepage": "https://github.com/andredumas/techan.js",
+  "version": "0.5.0",
+  "_release": "0.5.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.5.0",
+    "commit": "405346eb1435db499c4e0c965a33d1bc61f84c8f"
+  },
+  "_source": "git://github.com/andredumas/techan.js.git",
+  "_target": "~0.5.0",
+  "_originalSource": "techan",
+  "_direct": true
+}

@@ -1,0 +1,15 @@
+{
+  "name": "TechanJS",
+  "main": "dist/techan.js",
+  "ignore": [
+    "Gruntfile.js",
+    "lib",
+    "package.json",
+    "src",
+    "test",
+    "/.*"
+  ],
+  "dependencies": {
+    "d3": "~3.5.1"
+  }
+}

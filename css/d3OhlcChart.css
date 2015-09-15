@@ -1,0 +1,52 @@
+.ohlc-svg text {
+    font-size: 10px;
+}
+
+.axis path, .axis line {
+    fill: none;
+    stroke: #4C4C4C;
+    shape-rendering: crispEdges;
+}
+
+path {
+    fill: none;
+    stroke-width: 1;
+}
+
+path.ohlc {
+    stroke: #4C4C4C;
+    stroke-width: 1;
+}
+
+path.ohlc.up {
+    stroke: #00AA00;
+}
+
+path.ohlc.down {
+    stroke: #FF0000;
+}
+
+.ma-0 path.line {
+    stroke: #1f77b4;
+}
+
+.ma-1 path.line {
+    stroke: #aec7e8;
+}
+
+path.volume {
+    fill: #4C4C4C;
+}
+
+.crosshair {
+    cursor: crosshair;
+}
+
+.crosshair path.wire {
+    stroke: #DDDDDD;
+    stroke-dasharray: 1, 1;
+}
+
+.crosshair .axisannotation path {
+    fill: #343434;
+}

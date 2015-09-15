@@ -1,0 +1,171 @@
+#depth-chart, #price-chart {
+	height: 282.5px;
+}
+
+text {
+	fill: #fff;
+}
+
+.currency-label {
+	font-size: 10px;
+}
+
+.c3-xgrid-focus > line {
+	stroke: #3F3F3F;
+}
+
+.c3-xgrids, .c3-ygrids {
+	opacity: 0.2;
+}
+
+.c3-axis > .domain, .c3-axis > .tick > line{
+	stroke: #4C4C4C;
+}
+
+.tooltip-title {
+	font-size: 10px;
+}
+
+/*order list*/
+.order-panel .panel-body {
+	padding-top: 0px;
+}
+
+.order-list-container {
+	height: 300px;
+	overflow: hidden;
+}
+
+.order-list ul {
+	color: #fff;
+	list-style: none;
+	padding-left: 0px;
+	font-size: 10px;
+}
+
+#bids {
+	margin-top: 10px;
+}
+
+.order-separator {
+	margin-top: 0px;
+	margin-bottom: 1px;
+}
+
+.order-list-column-header {
+	margin-bottom: 5px;
+	font-size: 12px;
+	background-color: rgb(32, 34, 37);
+  padding-top: 3px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #000;
+}
+
+.order-size-zeros span {
+	color: #888888;
+}
+
+.order-size-bar {
+	position: absolute;
+	top: 0;
+	left:0;
+	height: 100%;
+	margin-left:15px;
+} 
+
+.order-size-bar-bid {
+	background-color: rgba(0, 128, 0, 0.4);
+}
+
+.order-size-bar-ask {
+	background-color: rgba(200, 0, 0, 0.4)
+}
+
+.order-price-left-bid {
+	color: rgba(0, 128, 0, 0.5);
+}
+
+.order-price-right-bid {
+	color: rgba(0, 128, 0, 1);
+}
+
+.order-price-left-ask {
+	color: rgba(200, 0, 0, 0.5);
+}
+
+.order-price-right-ask {
+	color: rgba(200, 0, 0, 1);
+}
+
+/*price*/
+#price-container {
+	background-color: rgb(32, 34, 37);
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	margin-top: 20px;
+}
+
+.price-title {
+	margin-bottom: 3px;
+	font-size: 14px;
+}
+
+.price-subtitle {
+	font-size: 12px;
+	margin-top: 0px;
+	margin-bottom: 7px;
+}
+
+/*animtations*/
+.neworder-bid-enter{
+  opacity: 0.01;
+  background-color: green !important;
+}
+
+.neworder-ask-enter{
+  opacity: 0.01;
+  background-color: red;
+}
+
+.neworder-bid-enter.neworder-bid-enter-active, .neworder-ask-enter.neworder-ask-enter-active {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
+
+.neworder-bid-leave.neworder-bid-leave-active, .neworder-ask-leave.neworder-ask-leave-active {
+  opacity: 0;
+  transition: opacity .5s ease-in;
+}
+
+/*bootstrap*/
+.center-text {
+	text-align: center;
+}
+
+.navbar, .navbar-brand {
+	font-size: 12px;
+	min-height: 40px;
+}
+
+.navbar-nav>li>a, .navbar-brand {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar-brand {
+	height: 40px;
+}
+
+.panel {
+	background-color: #1A1A1A;
+  border-radius: 0px;
+  border-color: #000;
+  margin-bottom: 0px;
+}
+
+.panel-default>.panel-heading {
+  color: #FFFFFF;
+  background-color: #202225;
+  border-radius: 0px;
+  border-color: #000;
+}
